@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: -5px 10px 20px 10px rgb(54, 53, 53) inset ;
+}
+
+#circle1 {
+    background-color: gray;
+}
+
+#circle2 {
+    background-color: gray;
+}
+
+#circle3 {
+    background-color: gray;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.button {
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#redButton {
+background-color: red;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+
+#yellowButton {
+background-color: yellow;
+}
+
+#greenButton {
+background-color: green;
+}
+
+#blinkYellowButton {
+background-color: rgb(249, 249, 6);
+}
